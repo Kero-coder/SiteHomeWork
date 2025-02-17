@@ -1,0 +1,103 @@
+* {
+    /* Убирает отступ сверху */
+    margin: 0;
+    /* Убирает отступ слева */
+    padding: 0;
+    box-sizing: border-box;
+    /* Стиль текста */
+    font-family: sans-serif;
+    /* Убирает точки */
+    list-style: none;
+    /* Убирает подчеркивания */
+    text-decoration: none;
+}
+
+
+.header {
+    /* Зафиксировать шапку */
+    position: sticky;
+    position: static ;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFFF;
+    display: flex;
+    /* Элементы размещаются в разные стороны */
+    justify-content: space-between;
+    align-items: center;
+    /* Отступы */
+    padding: 0 8%;
+    /* Тени */
+    box-shadow: 0 5px 10px #000;
+}
+
+.header__logo {
+    font-size: 20px;
+    /* Жиное начертание */
+    font-weight: 900;
+    color: #000;
+    /* Плавное смещение */
+    transition: .5s;
+}
+.header__logo:hover {
+    /* Текст становится больше */
+    transform: scale(1.1);
+}
+
+header nav ul li {
+    position: relative;
+    /* Весь текст строится по левой части */
+    float: left;
+}
+
+header nav ul li a {
+    /* Отступ между текстом */
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    /* Отступы */
+    display: block;
+}
+
+header nav ul li a:hover {
+    /* Наведение на текст дает черную область */
+    background: #000;
+    color: white;
+}
+
+nav ul li ul {
+    /* Размещение по порядку */
+    position:absolute;
+    left: 0;
+    /* Размер */
+    width: 220px;
+    background: white;
+    /* Скрыть */
+    display: none;
+}
+
+nav ul li ul li {   
+    width: 100%;
+    /* Линия между ссылками */
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+nav ul li ul li ul {
+    left: 215px;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    /* Начальное значение */
+    display: initial;
+}
+
+nav ul {
+    transition: .5;
+    box-shadow: 0 0.5px 5px #000;
+}
+
+nav ul li > ul li:hover {
+    transform: scale(1.05);
+}
+
