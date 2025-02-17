@@ -3,19 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main_Site</title>
+    <title>Main</title>
+    <link rel="stylesheet" href="header/header.css">
+    <link rel="stylesheet" href="bio.css">
 </head>
-<body>
-    <a href="Main_Site/catalog.html">Каталог</a> <br>
-    <a href="Main_Site/registration.html">Регистрация</a>
-    <h1 class="top">Мой первый сайт</h1>
-      <ul>
-        <li><a href="HomeWork1-17/Main.html">Задание на дом 1-17</a></li>
-        <li><a href="Text_formatting/Text_formatting.html">Оформление текстов</a></li>
-        <li><a href="Text_formatting2/text_formatting2.html">Оформление списков</a></li>
-        <li><a href="Using_graphs/Using_graphs.html">Использование графиков HTML</a></li>
-        <li><a href="Tables/Lists.html">Использование таблиц</a></li>
-      </ul>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, dicta. <a href="https://www.artlebedev.ru/typograf/">Типограф</a></p>
+<body style="height: 100vh; background: url(Header/gora.jpg) no-repeat; background-size: cover; background-position: center;">
+    <header class="header">
+
+        <a href="#" class="header__logo">KERO</a>
+
+        <nav class="header__content">
+            <ul class="header_content_text">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Main_Site/catalog.html">Каталог</a></li>
+                <li><a href="#">Домашняя работа &Del;</a>
+                    <!-- Выподающие списки -->
+                    <ul>
+                        <li><a href="#">Задание на дом 1-17 &Del;</a>
+                        <ul>
+                            <li><a href="HomeWork1-17/1-16/RASP.html">№1-16</a></li>
+                            <li><a href="HomeWork1-17/17/ISP216-P.html">№17</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="Text_formatting/Text_formatting.html">Оформление текстов</a></li>
+                        <li><a href="Text_formatting2/text_formatting2.html">Оформление списков</a></li>
+                        <li><a href="Using_graphs/Using_graphs.html">Использование графиков HTML</a></li>
+                        <li><a href="Tables/Lists.html">Использование таблиц</a></li>
+                    </ul>
+                </li>
+                <li><a href="Main_Site/registration.html">Регистрация</a></li>
+                <li><a href="https://www.artlebedev.ru/typograf/">Типограф</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
