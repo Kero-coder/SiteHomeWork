@@ -122,3 +122,34 @@
     transition: .2s;
     transform: scale(1.01);
 }
+
+.Kalkulyator {
+    width: 300px;
+    height: 260px;
+    background-color: #ffcc00;
+    margin-left: 43%;
+}
+
+.button_kaku {
+    width: 40px;
+    height: 40px;
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    margin: 10px 0px 10px 10px;
+}
+
+.submit_3 {    
+    width: 100px;
+    height: 40px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+
+}
+
+.submit_3:hover {
+    background-color: #c9c9c9 ;
+}
+
+.button_kaku:hover {
+    background-color: #c9c9c9 ;
+}
