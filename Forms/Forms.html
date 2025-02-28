@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="Forms_style.css">
+    <link rel="stylesheet" href="9.css">
 </head>
 <body>
     <div style="margin-left: 50%;">
@@ -129,7 +130,7 @@
 <div class="Anketa_7">
     <h3 style="color: rgb(0, 124, 0); padding: 15px; margin: 0;" align="center">Бланк заказа</h3>
 <div align="center" style="display: flex;">
-<img src="photo2.png" alt="">
+<img src="image/photo2.png" alt="">
 <div style="width: 250px; margin-left: 10px;">
     <form>
         <input type="text" size="15" style="padding: 5px; margin: 0px 0px 0px 30px;"> -Фамилия
@@ -140,9 +141,9 @@
 <div>
     <h3 style="font-size: 15px; color: blue;" align="center">Наши товары</h3>
     <p align="center">
-    <label><input type="checkbox"> <img src="mishka.png" alt="мышка"></label>
-    <label><input type="checkbox"> <img src="mishka2.png" alt="мышка2"></label>
-    <label><input type="checkbox"> <img src="ETACHO.png" alt="эточе"></label>
+    <label><input type="checkbox"> <img src="image/mishka.png" alt="мышка"></label>
+    <label><input type="checkbox"> <img src="image/mishka2.png" alt="мышка2"></label>
+    <label><input type="checkbox"> <img src="image/ETACHO.png" alt="эточе"></label>
 </p>
 </div>
 <div>
@@ -167,8 +168,8 @@
     <p style="font-size: 20px; padding: 15px; margin: 0;" align="center" class="text_blank">Бланк заказа</p>
     <div style="padding: 10px;" align="center">
     <form>
-    <label><img src="utug.png" alt="утюг" width="150px" height="150px" border="3" class="Anketa_8_text"><input type="checkbox" name="content" id=""> </label>
-    <label><img src="tualet.png" alt="туалет" width="150px" height="150px" border="3" style="margin: 0px 0px 0px 50px;" class="Anketa_8_text"> <input type="checkbox" name="content" id=""> </label>
+    <label><img src="image/utug.png" alt="утюг" width="150px" height="150px" border="3" class="Anketa_8_text"><input type="checkbox" name="content" id=""> </label>
+    <label><img src="image/tualet.png" alt="туалет" width="150px" height="150px" border="3" style="margin: 0px 0px 0px 50px;" class="Anketa_8_text"> <input type="checkbox" name="content" id=""> </label>
 </div>
 <div style="padding: 10px 0px 0px 50px;" class="text_blank">
     Адрес: <br>
@@ -195,7 +196,42 @@
 </div>
 </form>
 </div>
-
-
+<div style="margin-left: 50%;">
+    <h2>№9</h2>
+</div>
+<div class="container">
+    <img src="image/sharm.png" alt="Логотип фотостудии" class="logo">
+    <h6 align="center" class="sharm">Фотостудия "Шарм"</h6>
+    <form action="#" method="post" class="foorm">
+        <label class="vse" for="name">Имя заказчика:</label>
+        <input class="vse" type="text" id="name" name="name" style="width: 100px;" required>
+        <label class="vse" for="address">Адрес:</label>
+        <input class="vse" type="text" id="address" name="address" style="width: 150px;" required>
+        <label class="vse" for="phone">Телефон:</label>
+        <input class="vse" type="text" id="phone" name="phone" style="width: 50px;" required>
+        <fieldset class="zemlya">
+            <legend>Тип фото:</legend>
+            <label class="vse"><input class="vse" type="checkbox" name="photoType" value="color"> Цветное</label>
+            <label class="vse"><input class="vse" type="checkbox" name="photoType" value="bw"> Черно-белое</label>
+            <label class="vse"><input class="vse" type="checkbox" name="photoType" value="slide"> Цветной слайд</label>
+        </fieldset>
+        <fieldset class="zemlya">
+            <legend>Срок исполнения:</legend>
+            <label class="vse"><input class="vse" type="radio" name="deadline" value="3" required> 3 дня</label>
+            <label class="vse"><input class="vse" type="radio" name="deadline" value="10"> 10 дней</label>
+            <label class="vse"><input class="vse" type="radio" name="deadline" value="30"> 30 дней</label>
+        </fieldset>
+        <label>Заказ принял:</label>
+        <ul class="employee-links">
+            <li><a href="ivanov.html">Иванов</a></li>
+            <li><a href="petrov.html">Петров</a></li>
+            <li><a href="sidorov.html">Сидоров</a></li>
+        </ul>
+        <div class="buttons">
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>

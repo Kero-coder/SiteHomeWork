@@ -1,0 +1,57 @@
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 245, 109);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.sharm {
+    color: red;
+    font-weight: bold;
+
+}
+
+.foorm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vse {
+    margin: 5px;
+}
+
+.zemlya {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.employee-links {
+    list-style: none;
+    padding: 0;
+}
+
+.employee-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.employee-links a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
