@@ -1,0 +1,124 @@
+.textarea_4 {
+    resize: vertical;
+  }
+
+.Anketa_5 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(252, 154, 203);
+    margin-left: 42%;
+}
+
+/* Скрываем стандартное радио */
+.radio_kvadrat {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: -2px;
+}
+
+ /* Создаем квадрат внутри при выборе */
+.radio_kvadrat:checked::before {
+    content: "";
+    width: 75%;
+    height: 75%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit {
+    text-align: right;
+    margin: 15px;
+}
+
+.submit_1 {
+    width: 150px;
+    height: 35px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+
+.submit_1:hover {
+    background-color: #c9c9c9 ;
+}
+
+.Anketa_6 {
+    background-color: #ccffff;
+    width: 400px;
+    height: 350px;
+    margin-left: 40%;
+}
+
+.submit_2 {
+    width: 80px;
+    height: 35px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+
+.submit_2:hover {
+    background-color: #c9c9c9 ;
+}
+
+.Anketa_7 {
+    background-color: #cdffcc;
+    width: 500px;
+    height: 400px;
+    margin-left: 37%;
+}
+
+.Anketa_8 {
+    width: 500px;
+    height: 500px;
+    background-color: #f1f1bf;
+    box-shadow: 0 5px 20px #575656;
+    margin-left: 37%;
+}
+
+.text_blank {
+    color: #863348;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.Anketa_8_text:hover {
+    box-shadow: 0px 2px 10px #000; 
+    transition: .2s;
+    transform: scale(1.01);
+}
+
+.zakaz {
+    width: 150px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.clear {
+    width: 80px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.zakaz:hover {
+    box-shadow: 0 2px 10px rgba(0, 223, 0, 0.726);
+    transition: .2s;
+    transform: scale(1.01);
+}
+
+.clear:hover {
+    box-shadow: 0 2px 10px red;
+    transition: .2s;
+    transform: scale(1.01);
+}
