@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фреймы в HTML</title>
+    <link rel="stylesheet" href="Frames.css">
+</head>
+<body>
+    <div class="container">
+    <div class="nazad" style="margin-right: 100%;">
+        <p><a href="../index.html">НАЗАД</a></p>
+    </div>
+        <h1>Фреймы в HTML</h1>
+        <p>Фреймы (frames) использовались в ранних версиях HTML для разделения веб-страницы на несколько независимых областей, каждая из которых загружала свой HTML-документ.</p>
+
+        <h2>Используемые теги</h2>
+        <p>Для создания фреймов использовались следующие теги:</p>
+        <ul style="text-align: left;">
+            <li><code>&lt;frameset&gt;</code> — заменял <code>&lt;body&gt;</code> и определял структуру фреймов.</li>
+            <li><code>&lt;frame&gt;</code> — создавал отдельный фрейм с указанием источника (<code>src</code>).</li>
+            <li><code>&lt;noframes&gt;</code> — содержал альтернативный контент для браузеров, не поддерживающих фреймы.</li>
+        </ul>
+
+        <h2>Пример использования фреймов</h2>
+        <p>В этом примере создается два фрейма: левый (30% ширины) и правый (остальная часть экрана).</p>
+        <pre><code>&lt;frameset cols="30%, 70%"&gt;
+    &lt;frame src="menu.html"&gt;
+    &lt;frame src="content.html"&gt;
+&lt;/frameset&gt;</code></pre>
+        <h2>Атрибуты фреймов</h2>
+        <ul style="text-align: left;">
+            <li><code>src</code> — задавал URL загружаемого документа.</li>
+            <li><code>name</code> — задавал имя фрейма (использовалось для ссылок и скриптов).</li>
+            <li><code>scrolling</code> — управлял полосами прокрутки (<code>yes</code>, <code>no</code>, <code>auto</code>).</li>
+            <li><code>noresize</code> — запрещал изменение размера фрейма.</li>
+            <li><code>frameborder</code> — управлял отображением границ.</li>
+            <li><code>marginwidth</code> и <code>marginheight</code> — задавали отступы внутри фрейма.</li>
+        </ul>
+
+        <h2>Недостатки фреймов</h2>
+        <p>Фреймы создавали множество проблем, что привело к их устареванию:</p>
+        <ul style="text-align: left;">
+            <li><b>Проблемы с SEO</b> — поисковые системы плохо индексировали страницы с фреймами.</li>
+            <li><b>Проблемы с навигацией</b> — пользователи не могли закладками сохранять правильные URL.</li>
+            <li><b>Сложность стилизации</b> — управление стилями и адаптивность были затруднены.</li>
+            <li><b>Неудобство при печати</b> — браузеры печатали только один фрейм вместо всей страницы.</li>
+            <li><b>Проблемы с безопасностью</b> — атаки типа «clickjacking» использовали фреймы для обмана пользователей.</li>
+        </ul>
+
+        <h2>Чем заменили фреймы в HTML5?</h2>
+        <p>Фреймы были удалены в HTML5 и заменены следующими технологиями:</p>
+        <ul style="text-align: left;">
+            <li><b>CSS Flexbox и Grid</b> — позволяют создавать сложные макеты страниц без использования фреймов.</li>
+            <li><b>&lt;iframe&gt;</b> — используется для встраивания внешнего контента (например, видео, карт, других сайтов).</li>
+            <li><b>AJAX и JavaScript</b> — позволяют загружать контент без перезагрузки страницы, улучшая удобство работы с сайтом.</li>
+        </ul>
+
+        <h2>Пример использования &lt;iframe&gt;</h2>
+        <p>Пример встроенного контента с использованием <code>&lt;iframe&gt;</code>:</p>
+        <pre><code>&lt;iframe src="https://www.example.com" width="600" height="400" style="border:1px solid #000;"&gt;&lt;/iframe&gt;</code></pre>
+        
+        <iframe src="https://www.example.com" width="600" height="400"></iframe>
+    </div>
+</body>
+</html>
