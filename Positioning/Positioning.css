@@ -69,3 +69,30 @@
 .divv {
     margin-left: 39%;
 }
+
+.snow {
+    width: 300px;
+    height: 150px;
+    margin-bottom: -150px;
+}
+
+.Text1{
+color: red;
+font-size: 40px;
+margin-bottom: 0;
+}
+
+.Text2{
+color: blue;
+font-size: 40px;
+margin-top: -37px;
+margin-left: 20px;
+margin-bottom: 0;
+}
+
+.Text3{
+color: green;
+font-size: 40px;
+margin-top: -37px;
+margin-left: 40px;
+}
