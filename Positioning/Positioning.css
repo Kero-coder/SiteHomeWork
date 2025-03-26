@@ -47,3 +47,25 @@
     margin-left: -120px;
     margin-bottom: -50px;
 }
+
+.Moskva{
+    width: 400px;
+    margin-right: -325px;
+    margin-bottom: -40px;
+}
+
+.Moskva2{
+    width: 250px;
+    height: 150px;
+}
+
+.NewYear {
+    color: red;
+    font-size: 40px;
+    margin-top: -150px;
+    margin-left: 20px;
+}
+
+.divv {
+    margin-left: 39%;
+}
