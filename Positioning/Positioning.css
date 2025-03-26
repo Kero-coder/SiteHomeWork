@@ -121,3 +121,22 @@ margin-left: 40px;
     font-size: 50px;
     margin-right: -260px;
 }
+
+.fonn {
+    width: 600px;
+    height: 400px;
+    margin-bottom: -350px;
+}
+
+.summer {
+    width: 400px;
+    height: 300px;
+    border: 13px dashed rgb(145, 12, 39);
+}
+
+.Teext {
+    margin-top: -375px;
+    margin-left: -290px;
+    color: crimson;
+    font-size: 30px;
+}
