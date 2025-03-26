@@ -96,3 +96,28 @@ font-size: 40px;
 margin-top: -37px;
 margin-left: 40px;
 }
+
+.happy {
+    width: 500px;
+    height: 350px;
+    margin-bottom: -280px;
+}
+
+.sun{
+    width: 350px;
+    height: 225px;
+    border: 13px solid yellow;
+}
+
+.HappyText {
+    color: rgb(0, 212, 212);
+    font-size: 50px;
+    margin-top: -240px;
+    margin-left: -200px;
+}
+
+.HappyText2 {
+    color: rgb(0, 212, 212);
+    font-size: 50px;
+    margin-right: -260px;
+}
