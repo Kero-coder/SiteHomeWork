@@ -4,3 +4,19 @@
     width: 100px;
     height: 100px;
 }
+
+.kaiser2 {
+    left: 25px; 
+    top: 20px; 
+    width: 200px; 
+    height: 200px;
+    z-index: 0;
+    margin-bottom: -150px;
+}
+.text { 
+    left: 50px;
+    margin-left: 30px;
+    z-index: 1px; 
+    font-size: 30px; 
+    color: red;
+}
