@@ -140,3 +140,65 @@ margin-left: 40px;
     color: crimson;
     font-size: 30px;
 }
+
+.fonnn {
+    width: 700px;
+    height: 400px;
+    margin: 0;
+}
+
+.ramka {
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-bottom: -400px;
+}
+
+.bachira {
+    width: 170px;
+    height: 280px;
+    margin-top: -500px;
+    margin-left: -460px;
+    margin-bottom: -380px;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.bachira:hover {
+    transform: scale(1.3);
+}
+
+.isagi {
+    width: 170px;
+    height: 280px;
+    margin-top: -500px;
+    margin-bottom: -360px;
+    position: relative;
+    transition: .5s;
+} 
+
+.isagi:hover {
+    transform: scale(1.3);
+}
+
+.nagi {
+    width: 170px;
+    height: 280px;
+    margin-top: -500px;
+    margin-right: -450px;
+    margin-bottom: -350px;
+    position: relative;
+    transition: .5s;
+} 
+
+.nagi:hover {
+    transform: scale(1.3);
+}
+
+.gallery {
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: -110px;
+    position: relative;
+}
