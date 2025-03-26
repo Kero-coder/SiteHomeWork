@@ -28,3 +28,22 @@
     height: 200px;
     z-index: 0;
 }
+
+.image1{
+    width: 200px;
+    height: 200px;
+    margin-right: -120px;
+    margin-bottom: 50px;
+}
+
+.image2{
+    width: 200px;
+    height: 200px;
+}
+
+.image3{
+    width: 200px;
+    height: 200px;
+    margin-left: -120px;
+    margin-bottom: -50px;
+}
