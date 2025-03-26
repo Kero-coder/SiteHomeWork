@@ -202,3 +202,22 @@ margin-left: 40px;
     margin-bottom: -110px;
     position: relative;
 }
+
+.fonono {
+    width: 500px;
+    height: 400px;
+    margin-top: -110px;
+}
+
+.roze {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -280px;
+    position: relative;
+}
+
+.one {
+    font-size: 35px;
+    position: relative;
+
+}
