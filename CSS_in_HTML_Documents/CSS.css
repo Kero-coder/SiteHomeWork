@@ -81,3 +81,23 @@ code {
     height: 200px;
     border: 10px solid blue;
 }
+
+.table {
+    border: 10px solid blue;
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.th {
+    background-color: yellow; 
+    color: red; 
+    border: 3px red dashed; 
+    padding: 10px; 
+}
+
+.td {
+    background-color: green; 
+    border: 2px solid yellow; 
+    padding: 10px; 
+}
+
