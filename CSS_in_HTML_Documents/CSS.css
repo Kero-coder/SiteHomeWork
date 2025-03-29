@@ -101,3 +101,42 @@ code {
     padding: 10px; 
 }
 
+.task№9 {
+    width: 750px;
+    height: 450px;
+    background-color: #ff66ff;
+    margin-left: 30%;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-left: 43%;
+}
+
+.table2 {
+    border: 5px solid crimson;
+    background-color: #cf9509;
+}
+
+.th2 {
+    border: 3px dashed crimson;
+    background-color: #c9956c;
+    color: blue;
+}
+
+.task№9Table {
+    border: 5px solid crimson;
+    display: inline-block;
+    padding: 3px; 
+    margin-left: 32%;
+}
+
+.td2 {
+    background-color: #cf9509;
+    border: 4px solid crimson;
+}
+
+
+
+
