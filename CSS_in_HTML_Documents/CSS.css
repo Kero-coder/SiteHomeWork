@@ -39,3 +39,27 @@ code {
     font-size: 30px;
     color: rgb(223, 1, 223);
 }
+
+.task№6 {
+    width: 600px;
+    height: 500px;
+    background-color: #00feff;
+    margin-left: 34%;
+}
+
+.task№6Text {
+    font-size: 20px;
+}
+
+.task№6Text::first-letter {
+    margin: 0;
+    color: green;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+}
+
+.task№6TextO {
+    margin: 0;
+}
