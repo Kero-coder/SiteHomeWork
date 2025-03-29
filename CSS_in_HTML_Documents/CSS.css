@@ -12,3 +12,9 @@
     color: red; 
     text-align: right;
 }
+
+code {
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
