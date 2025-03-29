@@ -63,3 +63,21 @@ code {
 .task№6TextO {
     margin: 0;
 }
+
+.task№7 {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.task№7Text {
+    font-size: 14px;
+    font-family: 'Monotype Corsiva', cursive;
+}
+
+.task№7img {
+    width: 400px;
+    height: 200px;
+    border: 10px solid blue;
+}
