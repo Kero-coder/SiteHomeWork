@@ -214,6 +214,11 @@ margin-left: 40px;
     height: 300px;
     margin-bottom: -280px;
     position: relative;
+    transition: .5s;
+}
+
+.roze:hover {
+    transform: scale(1.2);
 }
 
 .one {
