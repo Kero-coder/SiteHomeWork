@@ -18,3 +18,24 @@ code {
     padding: 2px 5px;
     border-radius: 3px;
 }
+
+.task№5 {
+    background-color: #e5e6fa;
+    width: 400px;
+    height: 100px;
+    margin-left: 39%;
+}
+
+.task№5CSS {
+    align-items: center;
+    color: purple;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    margin: 0;
+}
+
+.task№5Text {
+    margin: 0;
+    font-size: 30px;
+    color: rgb(223, 1, 223);
+}
