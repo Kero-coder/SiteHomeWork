@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Герои</title>
+    <link rel="stylesheet" href="Heroes.css">
+</head>
+<body>
+  <h1>Родион Яковлевич Малиновский</h1>
+
+  <!-- Кнопки -->
+  <div class="buttons">
+  <div class="tooltip">
+    <a href="aktualnost.html">№1</a>
+    <span class="tooltiptext">Актуальность</span>
+  </div>
+  <div class="tooltip">
+    <a href="army.html">№2</a>
+    <span class="tooltiptext">Работа в армии/подвиг</span>
+  </div>
+  <div class="tooltip">
+    <a href="photo.html">№3</a>
+    <span class="tooltiptext">Фотография</span>
+  </div>
+  <div class="tooltip">
+    <a href="conclusion.html">№4</a>
+    <span class="tooltiptext">Заключение</span>
+  </div>
+  <div class="tooltip">
+    <a href="song.html">№5</a>
+    <span class="tooltiptext">Песня/голос</span>
+  </div>
+</div>
+
+<div class="buttons-back" >
+<a href="../index.html">НАЗАД</a>
+</div>
+
+  <!-- Графический блок -->
+  <div class="graphics-grid">
+    
+    <!-- Вектор -->
+    <div class="graphic-block vector">
+      <h3>Векторная графика (SVG)</h3>
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="30" stroke="#70e000" stroke-width="4" />
+        <line x1="32" y1="32" x2="50" y2="32" stroke="#70e000" stroke-width="4" />
+      </svg>
+    </div>
+
+    <!-- Растровая -->
+    <div class="graphic-block raster">
+      <h3>Растровое изображение</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/JPEG_example_flower.jpg/320px-JPEG_example_flower.jpg" alt="Растровое изображение">
+    </div>
+
+    <!-- Фрактал -->
+    <div class="graphic-block fractal">
+      <h3>Фрактальное дерево (Canvas)</h3>
+      <canvas id="fractal" width="280" height="280"></canvas>
+    </div>
+
+    <!-- 3D -->
+    <div class="graphic-block">
+      <h3>3D-графика (CSS Куб)</h3>
+      <div class="cube-container">
+        <div class="cube">
+          <div class="front"></div>
+          <div class="back"></div>
+          <div class="right"></div>
+          <div class="left"></div>
+          <div class="top"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Скрипт для фрактального дерева -->
+  <script>
+    const canvas = document.getElementById('fractal');
+    const ctx = canvas.getContext('2d');
+
+    function drawBranch(x, y, length, angle, depth) {
+      if (depth === 0) return;
+      const x1 = x + length * Math.cos(angle);
+      const y1 = y - length * Math.sin(angle);
+
+      ctx.beginPath();
+      ctx.moveTo(x, y);
+      ctx.lineTo(x1, y1);
+      ctx.strokeStyle = `hsl(${depth * 45}, 100%, 70%)`;
+      ctx.lineWidth = depth;
+      ctx.stroke();
+
+      drawBranch(x1, y1, length * 0.7, angle - Math.PI / 6, depth - 1);
+      drawBranch(x1, y1, length * 0.7, angle + Math.PI / 6, depth - 1);
+    }
+
+    drawBranch(140, 260, 50, Math.PI / 2, 6);
+  </script>
+
+</body>
+</html>
